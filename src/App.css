@@ -1,0 +1,79 @@
+.App {
+  text-align: center; 
+  background: #0f0c29;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #ffffff;;
+  /* height: 100vh; */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  padding:20px;
+  background-color: #282c34;
+  /* min-height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  height: 100vh;
+}
+
+.App-body{
+  text-align: center;
+  /* display: inline-block; */
+}
+
+.App-body ul{
+  list-style: none;
+  padding:2px;
+}
+.App-body ul li{
+  text-align:left;
+  margin-bottom:5px;
+}
+
+.App-body img{
+  width: 250px;
+  clip-path: circle(50%);
+  margin-bottom:-30px;
+}
+
+.App-body .nombre{
+  background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
+  border: 0;
+  color: 'white';
+  padding: 10px 30px;
+}
+.App-body .items{
+  margin-top:20px;
+}
+.App-link {
+  color: #fff;
+  text-decoration:none;
+}
+.App-link:hover {
+  text-decoration:none;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
