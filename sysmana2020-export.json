@@ -1,0 +1,84 @@
+{
+  "cv" : {
+    "apellido" : "Doe",
+    "certificaciones" : [ null, {
+      "certificado" : "Professional Scrum Master",
+      "id" : 99999,
+      "organismo" : "scrum.org"
+    }, {
+      "certificado" : "Correspondencia nivel 2 Grado MECES y 6 EQF",
+      "organismo" : "Secretaría General de Universidades"
+    } ],
+    "cursos" : [ null, {
+      "descripcion" : "Sed bibendum, mauris at pulvinar euismod, mi diam euismod erat, nec faucibus elit magna vitae lectus.",
+      "organismo" : "Organismo 1",
+      "titulo" : "Curso 1"
+    }, {
+      "descripcion" : "In vel sem eu arcu vehicula consectetur quis vitae quam.",
+      "organismo" : "Organismo 2",
+      "titulo" : "Curso 2"
+    } ],
+    "experiencia" : [ null, {
+      "empresa" : "Empresa 1",
+      "fechafin" : 2001,
+      "fechainicio" : 1998,
+      "puesto" : "Junior Developer"
+    }, {
+      "empresa" : "Empresa 2",
+      "fechafin" : 2004,
+      "fechainicio" : 2001,
+      "puesto" : "Developer"
+    }, {
+      "empresa" : "Empresa 3",
+      "fechafin" : 2007,
+      "fechainicio" : 2004,
+      "puesto" : "Analyst"
+    }, {
+      "empresa" : "Empresa 4",
+      "fechafin" : 2010,
+      "fechainicio" : 2007,
+      "puesto" : "Senior Analyst"
+    }, {
+      "empresa" : "Empresa 5",
+      "fechafin" : 2014,
+      "fechainicio" : 2010,
+      "puesto" : "Software Architect"
+    }, {
+      "empresa" : "Empresa 6",
+      "fechafin" : 2017,
+      "fechainicio" : 2014,
+      "puesto" : "Team Leader"
+    }, {
+      "empresa" : "Empresa 7",
+      "fechainicio" : 2017,
+      "puesto" : "Chief Technical Officer"
+    } ],
+    "formacion" : [ null, {
+      "centro" : "Universidad de Córdoba",
+      "titulo" : "Ingeniería Técnica Informática de Sistemas"
+    }, {
+      "centro" : "Universitat Oberta de Catalunya",
+      "titulo" : "Máster en Ingeniería Informática"
+    } ],
+    "foto" : "https://firebasestorage.googleapis.com/v0/b/sysmana2020.appspot.com/o/foto-perfil-john-doe.jpg?alt=media&token=40d9c775-6875-48aa-b1c6-1f69786718d0",
+    "github" : "https://github.com/juancalero",
+    "linkedin" : "\"https://www.linkedin.com/in/johndoe",
+    "mail" : "johndoe@gmail.com",
+    "nombre" : "John",
+    "proyectos" : [ null, {
+      "cliente" : "Cliente 1",
+      "descripcion" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "titulo" : "Proyecto 1 "
+    }, {
+      "cliente" : "Cliente 2",
+      "descripcion" : "In vel sem eu arcu vehicula consectetur quis vitae quam.",
+      "titulo" : "Proyecto 2"
+    } ],
+    "publicaciones" : [ null, {
+      "titulo" : "Publicación 1"
+    }, {
+      "titulo" : "Publicación 2"
+    } ],
+    "resumen" : " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi velit, sagittis non mollis quis, porta dapibus justo. Integer eu dolor maximus, tempus mi a, eleifend diam. Nam pharetra id tortor et pharetra. Aliquam a mi eu libero pulvinar consequat ac eget metus. Donec vulputate varius dictum. Nulla eget justo massa."
+  }
+}
