@@ -102,20 +102,13 @@ class App extends Component {
               <Row className="justify-content-md-center">
                 <Col xs="12" lg="12">            
                   <div className="text-justify">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel sem eu arcu vehicula consectetur quis vitae quam. Sed bibendum, mauris at pulvinar euismod, mi diam euismod erat, nec faucibus elit magna vitae lectus. Morbi porta aliquam ex vitae porttitor. Nulla ut efficitur nisl. Nullam faucibus dictum erat sit amet auctor. Nulla facilisi. Mauris hendrerit vitae justo id sagittis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris luctus risus id interdum molestie. Nullam accumsan faucibus malesuada. Vestibulum nisi justo, interdum quis cursus sit amet, imperdiet eu leo. Vivamus vitae nisi a nibh facilisis lacinia. Nam congue risus nec justo molestie scelerisque nec laoreet tellus. Etiam id turpis eu mi venenatis euismod sit amet non nisl.</p>
+                    <p>{datos.resumen}</p>
                   </div>
                   
                 </Col>
               </Row>
               <Row className="justify-content-md-center">
-                <Col xs="12" lg="4" className="d-flex">
-                {/* <Card body outline color="success" className="mx-auto my-2 text-dark">
-                 <Card.Body> 
-                  <Card.Title>Graduation</Card.Title>
-                  <Card.Subtitle>2008</Card.Subtitle>
-                  <Card.Text>“Future belongs to those who believe in the beauty of their dreams"- Elenor Roosevelt.</Card.Text> 
-                </Card.Body>                  
-                </Card>*/}
+                <Col xs="12" lg="4" className="d-flex">                
                   <Card body color="success" className="mx-auto my-2 text-dark flex-fill ">  
                     <Experiencia  datos={datos}  />
                   </Card>
